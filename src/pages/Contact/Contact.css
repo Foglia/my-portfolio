@@ -70,12 +70,10 @@ li {
     .contacLinks {
         padding: 10px;
         text-align: center;
-        max-width: 80%;
-        background-color: navy;
-        color: white;
+        max-width: 100%;
     }
     .contactText{
-        max-width: 80%;
+        max-width: 100%;
         font-size: large;
         padding: 20px;
         text-align: center;
