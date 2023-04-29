@@ -1,0 +1,48 @@
+.project {
+    padding: 2em;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: var(--shadow);
+    transition: transform 0.2s linear;
+  }
+  
+  .project:hover {
+    transform: translateY(-7px);
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+
+  }
+
+  .project img {
+    width: 90px
+  }
+  
+  .project__description {
+    margin-top: 1em;
+  }
+  
+  .project__stack {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 1.2em 0;
+  }
+  
+  .project__stack-item {
+    margin: 0.9em;
+    font-weight: 500;
+    font-size: 0.8rem;
+    color: var(--clr-fg-alt);
+  }
+  
+  .project .link--icon {
+    margin-left: 0.5em;
+    color:navy;
+    padding: 4px;
+    margin: 6px;
+  }
+
+.project .link--icon:hover {
+    margin-left: 0.5em;
+    color:rgb(216, 216, 12);
+    zoom: 200%;
+}

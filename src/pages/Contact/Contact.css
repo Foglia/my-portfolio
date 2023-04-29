@@ -1,0 +1,84 @@
+.headText  {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.contact {
+    display: flex;
+    align-content: flex-start;
+    justify-content: space-around;
+    align-items: flex-start;
+    max-width: 100%;
+    padding: 30px 90px;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+.contactText{
+    display: flex;
+    max-width: 90%;
+    font-size: large;
+    padding: 10px;
+    text-align: right;
+
+}
+
+.contactForm{
+    max-width: 30%;
+    padding: 20px;
+}
+
+.contactList{
+    display: flex;
+}
+
+.rows {
+    display: flex;
+    flex-direction: column;
+    max-width: 70%;
+}
+
+.contacLinks {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    max-width: 90%;
+    text-align: center;
+
+}
+
+.butttonCv {
+    width: 160px;
+    align-items: center;
+}
+
+.contacLinks ul, 
+li {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+@media (max-width: 600px) {
+    .contact {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 80%;
+        padding: 30px 20px;
+        flex-direction: column;
+        align-content: space-between;
+    }
+    .contacLinks {
+        padding: 10px;
+        text-align: center;
+        max-width: 80%;
+        background-color: navy;
+        color: white;
+    }
+    .contactText{
+        max-width: 80%;
+        font-size: large;
+        padding: 20px;
+        text-align: center;
+
+    }
+}
