@@ -15,7 +15,7 @@ const projects = [
     {
       name: 'NNFT',
       description:
-        " NNFT is a social platform exclusively for 'NoNFT' artists and collectors, providing a space for them to showcase work and intteract",       
+        " NNFT is a social platform exclusively for 'NoNFT' artists and collectors, providing a space for them to showcase work and interact",       
       image: projectImage,
       stack: ['HTML', 'CSS', 'JavaScript', 'Handlebars', 'Node.js', 'Express', 'Mongoose', "MongoDB"],
       sourceCode: 'https://github.com/Foglia/Project_2_SApp',

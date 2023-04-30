@@ -25,6 +25,7 @@ function Contact() {
         <br/>
         <p>... get a bit closer</p>
           <a href="https://www.linkedin.com/in/flaviafogliato/" target="_blank" rel="noopener noreferrer">Instagram</a>
+          <br />
           <div className='butttonCv'>
          <StyledButton onClick={(e) => {window.open("https://drive.google.com/file/d/1TPgAfE1QCwpuufSrjztdfmGcgiai8Uhw/view?usp=sharing/uc?id=<fileId>&export=download", "_blank", "noopener noreferrer");}}
        value="download">Download my CV</StyledButton>

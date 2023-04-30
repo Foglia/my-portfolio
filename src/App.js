@@ -24,7 +24,6 @@ function App() {
     </main>
       <Footer/>
     <Scroll />
-
   </Router>
   );
 }
