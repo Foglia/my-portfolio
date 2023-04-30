@@ -9,7 +9,7 @@ const Projects = () => {
 
   return (
     <section id='projects' className='section projects'>
-      <h2 className="headText">PROJECTS</h2>
+      <h2 className="headText" id="headTextP">PROJECTS  &lt;/&gt;</h2>
 
       <div className='projects__grid'>
         {projects.map((project) => (
