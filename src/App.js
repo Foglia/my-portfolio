@@ -10,6 +10,7 @@ import Skills from './pages/Skills/Skills';
 import Contact from './pages/Contact/Contact';
 import Projects from "./pages/Projects/Projects";
 import Scroll from "./components/Scroll/Scroll";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
      <Skills />
      <Contact />
     </main>
+      <Footer/>
     <Scroll />
 
   </Router>

@@ -6,7 +6,7 @@ import { StyledButton } from '../../components/StyledButton'
 function Contact() {
   return (
 <>
- <h2 className="headText" id="contact">CONTACT  &lt;/&gt;</h2>
+ <h2 className="headText" id="contact">&lt;&gt;  CONTACT  &lt;/&gt;</h2>
  <div className="contact">
       <div className='contacForm'>
       <ContactForm />

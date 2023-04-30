@@ -36,3 +36,14 @@
   font-family: Arial, sans-serif;
   font-weight: bold;
 }
+
+@media (max-width: 600px) {
+  .headText {
+    display: flex;
+    align-content: stretch;
+    text-align: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+  }}

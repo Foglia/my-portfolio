@@ -70,7 +70,7 @@
         padding: 8px 20px;
         align-content: space-between;
         flex-direction: column-reverse;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
     }
     .contacLinks {
         padding: 10px;

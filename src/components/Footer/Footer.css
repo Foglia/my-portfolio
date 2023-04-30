@@ -1,0 +1,32 @@
+.footerContainer {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    height: 40px;
+    width: 30%;
+    background-color: rgb(216, 216, 12);
+}
+
+.footer {
+    color: navy;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+}
+
+@media (max-width: 600px ) {
+    .footerContainer {
+        height: 40px;
+        width: 80%;
+        background-color: rgb(216, 216, 12);
+    }
+    .footer {
+        color: navy;
+        font-family: Arial, Helvetica, sans-serif;
+        align-items: center;
+        text-align: center;
+        margin-top: 10px;
+        font-size: smaller;
+    }
+}
