@@ -5,17 +5,21 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
+ul {
+  margin: 0;
+}
+
 .container {
   max-width: 1920px;
-  margin: 20px auto;
-  padding: 0px 15px;
+  margin: 22px auto;
+  padding: 0px 10px;
   display: flex;
   align-items: center;
   align-content: center;
   height: 100%;
-  width: 70%;
+  width: 80%;
   justify-content: space-between;
-  border: 2px solid navy;
+  border: 3px solid navy;
   background-color: #5f5f5e4e;
   border-radius: 4px;
 }
@@ -26,8 +30,9 @@ body {
   width: 100%;
   position: relative;
   text-align: center;
-  background-color: rgb(216, 216, 12);
+  background-color: #4bffa5
 }
+
 
 .menu-icon {
   display: none;
@@ -35,13 +40,14 @@ body {
 
 .nav-elements a:hover {
   color:rgba(0, 0, 128, 0.361);
-  shadow:#574c4c;
+  box-shadow:#574c4c;
 }
 
 .nav-elements ul {
   display: flex;
   justify-content: space-between;
   list-style-type: none;
+  text-align: center;
 }
 
 
@@ -51,7 +57,7 @@ body {
 
 .nav-elements ul a {
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 600;
   color: navy;
   text-decoration: none;
 }
@@ -103,7 +109,7 @@ body {
     height: calc(100vh - 60px);
     transition: all 0.3s ease-in;
     overflow: hidden;
-    border: 2px solid navy;
+    border: 3px solid navy;
   }
 
   .nav-elements.active {
@@ -114,7 +120,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin-top: 45px;
+    margin-top: 50px;
   }
 
   .nav-elements ul li {

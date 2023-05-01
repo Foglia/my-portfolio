@@ -34,19 +34,24 @@ const projects = [
 
   const skills = [
     // skills can be added or removed
-    // if there are no skills, Skills section won't show up
-    'HTML',
+    'HTML5',
     'CSS',
+    'Bootstrap',
     'JavaScript',
     'JQuery',
-    'React.js',
-    'Node.js',
-    'Express.js',
+    'ReactJS',
+    'NodeJS',
+    'ExpressJS',
     'Git',
-    'GitHub',
     'MongoDB',
-    'Postman',
-    'RestAPIs',
+    'APIs',
   ]
 
-  export { projects, skills }
+  const softSkills = [
+    'Attention to Detail',
+    'Self-Learning',
+    'Problem-Solving',
+    'Creativity',
+  ]
+
+  export { projects, skills, softSkills }

@@ -1,8 +1,8 @@
 .scroll-top {
     position: fixed;
-    bottom: 2em;
-    right: 4em;
-    background-color: rgb(216, 216, 12);
+    bottom: 4em;
+    right: 2em;
+    background-color: #4bffa5;
     padding: 15px;
     border-radius: 200px;
   }

@@ -1,6 +1,13 @@
 #skills {
     background-color: white;
     background-size: cover;
+    margin-left: 90px;
+}
+
+@media (max-width: 600px) {
+  #skills {
+    margin-left: 0px;
+}
 }
 
 .skills__list {
@@ -20,4 +27,12 @@
   transform: translateY(-7px);
   box-shadow: 0 0 11px rgba(33,33,33,.2); 
   font-weight: 600;
+}
+
+#hard:hover {
+  background-color: aquamarine;
+}
+
+#soft:hover {
+  color: navy;
 }

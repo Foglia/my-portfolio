@@ -46,4 +46,13 @@
     flex-wrap: nowrap;
     justify-content: space-around;
     align-items: center;
-  }}
+  }
+
+  #skils,
+  #projects,
+  #contact {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+}

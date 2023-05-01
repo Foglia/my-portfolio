@@ -9,7 +9,6 @@
   .project:hover {
     transform: translateY(-7px);
     box-shadow: 0 0 11px rgba(33,33,33,.2); 
-
   }
 
   .project img {
@@ -33,16 +32,21 @@
     font-size: 0.8rem;
     color: var(--clr-fg-alt);
   }
+
+  .link link--icon {
+    size: 20em
+  }
   
   .project .link--icon {
     margin-left: 0.5em;
     color:navy;
     padding: 4px;
     margin: 6px;
+    font-size: large;
   }
 
 .project .link--icon:hover {
     margin-left: 0.5em;
-    color:rgb(216, 216, 12);
+    color: #4bffa5;
     zoom: 200%;
 }

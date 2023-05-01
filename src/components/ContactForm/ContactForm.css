@@ -1,14 +1,14 @@
 .containerF {
     max-width: 600px;
     margin: 0 auto;
-    padding: 0 15px;
+    padding: 0 25px;
     display: flex;
     align-items: center;
     align-content: center;
     height: 100%;
     width: 92%;
     justify-content: space-between;
-    border: 2px solid navy;
+    border: 3px solid navy;
     background-color: #5f5f5e4e;
     border-radius: 4px;
 }
@@ -96,7 +96,7 @@ input[type='text'], [type='email'], textarea {
 	background: none;
   border: none;
 	border-bottom: solid 2px #122293;
-	color: #122293;
+	color: #6f76ad;
 	font-size: 1.000em;
     font-weight: 400;
     letter-spacing: 1px;

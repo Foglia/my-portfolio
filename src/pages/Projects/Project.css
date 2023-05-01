@@ -9,6 +9,12 @@
   #projects {
     background-color: white;
     background-size: cover;
+    margin-right: 90px;
+  }
+
+@media (max-width: 600px) {
+    #projects {
+      margin-right: 0px;  }
   }
 
 #headTextP {

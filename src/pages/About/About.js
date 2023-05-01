@@ -1,9 +1,19 @@
-import React from 'react'
+import React from "react"
+import { useState } from 'react'
 import { StyledButton, StyledButton2 } from "../../components/StyledButton"
-import avatar from "../../assets/images/squaregif.gif"
+import ToggleImage from '../../components/ToogleImage/ToogleImage'
+import { GiClick } from 'react-icons/gi'
 import "./About.css"
 
 function About() {
+  const [active, setActive] = useState(false);
+
+  const handleChangeActive = () => {
+    setActive((previousAvatar) => {
+      return !previousAvatar;
+    });
+  };
+
   return (
     <div className='about' id="about">
     <article className='aboutContainer'>
@@ -24,10 +34,15 @@ function About() {
         <StyledButton2 onClick={() => window.open("https://github.com/Foglia", "_blank")} className='button1'>Github</StyledButton2>    
         </div>    
         </div>
-        <img className="avatar" src={avatar} alt="Avatar" />
+        <div>
+        <div className="click">
+        <GiClick className="blink"/>
+        </div>
+        </div>
+        <ToggleImage active={active} handleChangeActive={handleChangeActive} />
       </article>    
     </div>
-  )
+  );
 }
 
 export default About

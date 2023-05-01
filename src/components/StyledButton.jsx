@@ -11,6 +11,16 @@ const StyledButton = styled.button`
     font-size: 15px;
     text-transform: uppercase;
     font-heigth: bold;
+
+    &:hover {
+    transform: translateY(3px);
+    box-shadow: 5px 10px;
+    }
+
+    &:active {
+    color: white;
+    background-color: navy;
+    }
 `;
 
 export    
@@ -22,6 +32,34 @@ const StyledButton2 = styled.button`
     color: navy;
     font-size: 15px;
     text-transform: uppercase;
-    font-heigth: bold
+    font-width: bold;
 
+    &:hover {
+    transform: translateY(3px);
+    box-shadow: 5px 10px;
+
+    &:active {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.425);
+    }
+  }
+
+`;
+
+export    
+const StyledButton3 = styled.button`
+    border: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    &:hover {
+    border-color: white;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.425);
+  }
 `;
