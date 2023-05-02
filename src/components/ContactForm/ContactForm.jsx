@@ -1,12 +1,15 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react'
 import emailjs from '@emailjs/browser';
 import {StyledButton2} from "../StyledButton"
 import "./ContactForm.css"
 
 const ContactForm = () => {
   const form = useRef();
+  const [isSubmitting, setIsSubmitting] = useState(false);
+
   const sendEmail = (e) => {
     e.preventDefault();
+    setIsSubmitting(true);
     emailjs.sendForm(
       process.env.REACT_APP_SERVICE_ID, 
       process.env.REACT_APP_TEMPLATE_ID, 
@@ -15,9 +18,11 @@ const ContactForm = () => {
       )
       .then((result) => {
           console.log(result.text);
+          setIsSubmitting(false);
           form.current.reset();
       }, (error) => {
           console.log(error.text);
+          setIsSubmitting(false);
       });
   };
     return (
@@ -38,7 +43,8 @@ const ContactForm = () => {
       <textarea name="message" cols="30" rows="5" placeholder="message" required/>
     </div>
     <div className="submit">
-      <StyledButton2 type="submit" value="Send" id="submit">send</StyledButton2>
+      <StyledButton2 type="submit" value="Send" id="submit" disabled={isSubmitting}>{isSubmitting ? 'Loading...' : 'Send'}
+</StyledButton2>
       </div>
     </form>
   </div>

@@ -71,7 +71,7 @@
     font-weight: 600;
 }
 
-.butttonCv {
+.cv {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -92,6 +92,18 @@
     width: auto;
     height: 300px;
     padding: 0px 70px;
+}
+
+.dowload {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#buttonCv {
+    size: 400px;
+    background-color: navy;
+    margin: 3vw 0 0 4vw;
 }
 
 @media (max-width: 600px) {

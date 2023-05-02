@@ -21,6 +21,14 @@ const StyledButton = styled.button`
     color: white;
     background-color: navy;
     }
+
+  @media (max-width: 600px) {
+    &:hover {
+    background-color: navy;  
+    transform: none;
+    box-shadow: none;
+    }
+  }  
 `;
 
 export    

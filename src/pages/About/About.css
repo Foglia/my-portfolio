@@ -87,19 +87,14 @@ body {
 article {
     display: flex;
     flex-direction: column;
-}
-
+   }
     .aboutText {
       max-width: 95%;
       padding-left: 10px;
     }
-
     .button1 {
     overflow: inherit;
-    width: 50%; 
-    }
-    .button1:hover{
-    box-shadow: 2px 8px;
+    width: 80%; 
     }
     .aboutButtons { 
     display: flex;

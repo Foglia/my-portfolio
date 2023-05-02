@@ -21,19 +21,21 @@ function Contact() {
            <a href="https://www.linkedin.com/in/flaviafogliato/" target="_blank" rel="noopener noreferrer">LINKEDIN</a>
            <a href="https://github.com/Foglia" target="_blank" rel="noopener noreferrer">GITHUB</a>
           <br />
-          <div className='butttonCv'>
+          <div className='cv'>
           <p style={{ color: 'aquamarine'}}>
           &lt;br /&gt;
           </p>
-         <StyledButton onClick={(e) => {window.open("https://drive.google.com/file/d/1TPgAfE1QCwpuufSrjztdfmGcgiai8Uhw/view?usp=sharing/uc?id=<fileId>&export=download", "_blank", "noopener noreferrer");}}
-       value="download">Download my CV</StyledButton>
          </div>
         </div>
       </div>
       <div className='contacForm'>
       <ContactForm />
       </div>
+      <div className='dowload'>
       <img src={gif} alt='gif' className='gifImage' />
+      <StyledButton onClick={(e) => {window.open("https://drive.google.com/file/d/1TPgAfE1QCwpuufSrjztdfmGcgiai8Uhw/view?usp=sharing/uc?id=<fileId>&export=download", "_blank", "noopener noreferrer");}}
+       value="download" id='buttonCv'>Download my CV</StyledButton>
+       </div>
    </div>
 </>
 
