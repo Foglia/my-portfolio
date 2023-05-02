@@ -6,7 +6,22 @@
 
 @media (max-width: 600px) {
   #skills {
-    margin-left: 0px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+}
+.skills__list {
+  max-width: 350px;
+  width: 100%;
+  padding: 0 0;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 }
 
