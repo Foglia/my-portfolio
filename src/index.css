@@ -2,7 +2,8 @@
 
 *{
   width: auto;
-  overflow-x: hidden;
+  overflow-y: visible;
+  height: auto;
 }
 
 body {
