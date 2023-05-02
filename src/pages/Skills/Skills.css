@@ -1,7 +1,6 @@
 #skills {
     background-color: white;
     background-size: cover;
-    margin-left: 90px;
 }
 
 @media (max-width: 900px) {
@@ -33,6 +32,10 @@
     flex-wrap: wrap;
     justify-content: center;
   }
+
+  ul.skills__list {
+    padding: 0;
+}
   
   .skills__list-item {
     margin: 0.5em;

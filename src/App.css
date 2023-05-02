@@ -35,7 +35,8 @@ html {
 }
 
 .headText {
-  margin: 30px ;
+  text-align: center;
+  margin: 60px ;
   padding: 20px;
   font-family: Arial, sans-serif;
   font-weight: bold;
@@ -62,5 +63,16 @@ div {
     margin-left: 0;
     margin-right: 0;
   }
+}
 
+@media (max-width: 370) {
+  p,
+  h3,
+  h5,
+  h2 {
+    font-size: smaller;
+  }
+  .headText {
+    font-size: 12px;
+  }
 }

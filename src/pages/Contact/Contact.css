@@ -19,16 +19,6 @@
     color: aquamarine;
 }
 
-#contact {
-    text-align: right;
-    margin-right: 90px;
-}
-@media (max-width: 900px) {
-    #contact {
-      margin-right: 0px;
-  }
-  }
-
 .contactText{
     max-width: 75%;
     padding: 10px;
