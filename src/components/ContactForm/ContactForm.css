@@ -13,11 +13,11 @@
     border-radius: 4px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 300px) {
     .containerF {
-        max-width: 400px;
-
+        max-width: 200px;
     }
+
 }
 
 input,
