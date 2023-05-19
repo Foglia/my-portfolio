@@ -3,29 +3,8 @@
     background-size: cover;
 }
 
-@media (max-width: 900px) {
-  #skills {
-  margin: 0 auto;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-  flex-direction: column;
-}
 .skills__list {
-  max-width: 350px;
-  width: 100%;
-  padding: 0 0;
-  margin: 0 auto;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-}
-
-.skills__list {
-    max-width: 450px;
+    max-width: 550px;
     width: 95%;
     margin: 0 auto;
     display: flex;
@@ -43,7 +22,8 @@
 
 .skills__list-item:hover {
   transform: translateY(-7px);
-  box-shadow: 0 0 11px rgba(33,33,33,.2); 
+
+  box-shadow: 5px 0 14px rgba(33, 33, 33, 0.2); 
   font-weight: 600;
 }
 
@@ -53,4 +33,25 @@
 
 #soft:hover {
   color: navy;
+}
+
+@media (max-width: 900px) {
+  #skills {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+}
+.skills__list {
+  max-width: 380px;
+  width: 100%;
+  padding: 0 0;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 }

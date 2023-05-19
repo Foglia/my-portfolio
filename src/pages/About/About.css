@@ -1,6 +1,3 @@
-body {
-    background-color: white;
-}
 
 .about {
     display: flex;
@@ -8,8 +5,7 @@ body {
     align-items: center;
     background-color: #4bffa5;
     max-width: 100%;
-    margin-top: 0px;
-    padding: 20px 60px 90px;
+    padding: 50px 120px 70px;
 }
 
 .about p {
@@ -26,7 +22,6 @@ body {
 }
 
 .aboutContainer {
-    margin-top: 60px;
     display: flex;
     flex-wrap: nowrap;
     align-content: center;
@@ -34,12 +29,22 @@ body {
 }
 
 .aboutText {
+    display: flex;
+    flex-direction: column;
+    align-content: space-evenly;
+    justify-content: center;
     max-width: 40%;
-    padding-left: 100px;
+    padding: 0 20px;
+}
+
+.aboutText h3 {
+    text-align: left;
+
 }
 
 .avatar {
-    width: 65%;
+    width: 90%;
+    padding: 0 20px;
     height: auto;
     object-fit: cover;
     border-radius: 2px;
@@ -74,6 +79,10 @@ body {
 
 @media (max-width: 900px) {
 
+.about {
+padding: 10px 10px 20px;
+}
+
 .aboutContainer {
     margin-top: 10px;
     display: flex;
@@ -89,26 +98,27 @@ article {
     flex-direction: column;
    }
     .aboutText {
-      max-width: 95%;
+      max-width: 80%;
       padding-left: 10px;
+      font-size: smaller;
     }
-    .button1 {
+    .button {
     overflow: inherit;
-    width: 80%; 
+    width: 95%; 
     }
     .aboutButtons { 
     margin: 50px auto 2px;
     display: flex;
     align-items: stretch;
-    max-width: 80%;
+    max-width: 95%;
     flex-wrap: wrap;
-    flex-direction: column;
     align-content: space-around;
     justify-content: center;
     }
     .avatar {
-    width: 98%;
+    width: 80%;
     text-align: center;
+    padding: 0px 0px
     }
     .click {
         margin-left: 30vw;

@@ -11,10 +11,15 @@ function Contact() {
  <div className="contact">
     <div className='rows'>
       <div className='contactText'>
-      <h5>If you're interested in collaborating with me on a project or have any questions about my work, I would love to hear from you! Whether you are an individual, a startup, an organization, an artist, or just a curious visitor, I am always excited to take on new challenges and help bring your ideas to life.</h5>  
+      <h3>OPEN TO TALK</h3>
+      <br/>
+      <h5>If you're interested in collaborating with me on a project or have any questions about my work, I would love to hear from you! Whether you are an individual, a startup, an organization, an artist, or just a curious visitor... I am always excited to take on new challenges or just have some joining talks!</h5>  
       </div>
       <div className='contacLinks'>
-        <p>Find out more about me ...</p>
+      <p style={{ color: 'aquamarine'}}>
+          &lt;br /&gt;
+          </p>
+        <p>Find out more ...</p>
            <a href="https://www.linkedin.com/in/flaviafogliato/" target="_blank" rel="noopener noreferrer">LINKEDIN</a>
            <a href="https://github.com/Foglia" target="_blank" rel="noopener noreferrer">GITHUB</a>
           <br />
@@ -22,6 +27,7 @@ function Contact() {
           <p style={{ color: 'aquamarine'}}>
           &lt;br /&gt;
           </p>
+          <h6><a href="mailto: flavia.fogliato@gmail.com">flavia.fogliato@gmail.com</a></h6>
          </div>
         </div>
       </div>
@@ -32,7 +38,6 @@ function Contact() {
       <img src={gif} alt='gif' className='gifImage' />
       <StyledButton onClick={(e) => {window.open("https://drive.google.com/file/d/1TPgAfE1QCwpuufSrjztdfmGcgiai8Uhw/view?usp=sharing/uc?id=<fileId>&export=download", "_blank", "noopener noreferrer");}}
        value="download" id='buttonCv'>Download my CV</StyledButton>
-      <h6><a href="mailto: flavia.fogliato@gmail.com">flavia.fogliato@gmail.com</a></h6>
        </div>
    </div>
 </>

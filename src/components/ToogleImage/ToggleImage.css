@@ -10,11 +10,18 @@ body {
     justify-content: space-around;
     align-items: stretch;
 }
+.toggle-wrapper img:hover {
+    border-radius: 20px 0px;
+    cursor: pointer;
+    zoom:inherit
+}
 
     @media (max-width: 600px) {
     .toggle-wrapper {
+        flex-wrap: wrap;
         display: flex;
         flex-direction: column;
         align-content: center;
+        cursor: pointer;
     }
   }

@@ -39,6 +39,7 @@ const projects = [
     'Bootstrap',
     'JavaScript',
     'JQuery',
+    'Handlebars',
     'ReactJS',
     'NodeJS',
     'ExpressJS',
@@ -52,6 +53,8 @@ const projects = [
     'Self-Learning',
     'Problem-Solving',
     'Creativity',
+    'Communication',
+    'Empathy'
   ]
 
   export { projects, skills, softSkills }

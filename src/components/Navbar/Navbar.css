@@ -76,7 +76,7 @@ ul {
   height: 2px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
   .container {
     justify-content: flex-start;
     width: 100%;
@@ -87,9 +87,6 @@ ul {
   .nav-elements ul li:not(:last-child) {
     margin-right: 30px;
   }
-}
-
-@media (max-width: 600px) {
   .menu-icon {
     display: block;
     cursor: pointer;
@@ -127,6 +124,7 @@ ul {
     flex-direction: column;
     align-items: flex-start;
     margin-top: 60px;
+    margin-left: 20px;
   }
 
   .nav-elements ul li {

@@ -13,7 +13,7 @@ const StyledButton = styled.button`
     font-heigth: bold;
 
     &:hover {
-    transform: translateY(3px);
+    transform: translateY(-5px);
     box-shadow: 5px 10px;
     }
 
@@ -43,7 +43,7 @@ const StyledButton2 = styled.button`
     font-width: bold;
 
     &:hover {
-    transform: translateY(3px);
+    transform: translateY(-5px);
     box-shadow: 5px 10px;
 
     &:active {
