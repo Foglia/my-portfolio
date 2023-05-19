@@ -1,7 +1,6 @@
 body {
     margin: 0;
 }
-
 .toggle-wrapper {
     display: flex;
     flex-direction: row;

@@ -13,7 +13,7 @@ function Contact() {
       <div className='contactText'>
       <h3>OPEN TO TALK</h3>
       <br/>
-      <h5>If you're interested in collaborating with me on a project or have any questions about my work, I would love to hear from you! Whether you are an individual, a startup, an organization, an artist, or just a curious visitor... I am always excited to take on new challenges or just have some joining talks!</h5>  
+      <h5>If you're interested in collaborating with me on a project or have any questions about my work, I would love to hear from you! Whether you are an individual, a startup, an organization, an artist, or simply a curious visitor, I am always excited to take on new challenges or engage in meaningful discussions. Feel free to reach out to me, and let's explore the possibilities together!</h5>  
       </div>
       <div className='contacLinks'>
       <p style={{ color: 'aquamarine'}}>
