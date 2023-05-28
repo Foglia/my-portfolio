@@ -21,6 +21,7 @@
      border-radius: 50%;
      /* background: rgba(0, 0, 128, 0.196); */
      margin: 60px;
+     z-index: 99;
 
    }
    
