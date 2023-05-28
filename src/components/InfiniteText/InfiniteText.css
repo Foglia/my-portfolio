@@ -1,0 +1,49 @@
+
+.markBoth {
+    position: relative;
+    display: block;
+    width: 100vw;
+    height: 50px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+}
+
+.mark  {
+    position: absolute;
+    display: block;
+    margin: auto auto;
+    white-space: nowrap;
+    overflow: hidden;
+    min-width: 100vw;
+    height: 100vh;
+    background: none;
+}
+
+.mark span {
+    display: inline-block;
+    padding-left: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    -webkit-text-stroke: 2px #4bffa5;
+
+    color: white;
+    white-space: nowrap;
+    min-width: 100vw;
+    height: 100vh;
+    line-height: 40px;
+    font-size: 30px;
+    animation: mark 10s linear infinite;
+}
+
+@keyframes mark {
+    0% 
+    {
+    transform: translate(0, 0);
+    }
+    100%
+    {
+    transform: translate(-100%, 0);
+    }
+}

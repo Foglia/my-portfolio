@@ -1,6 +1,7 @@
 body {
     margin: 0;
 }
+
 .toggle-wrapper {
     display: flex;
     flex-direction: row;
@@ -9,12 +10,27 @@ body {
     justify-content: space-around;
     align-items: stretch;
 }
+
+.toggle-wrapper img[src] {
+    width: 100%;
+    border-radius: 20px;
+}
+
 .toggle-wrapper img:hover {
     border-radius: 20px 0px;
     cursor: pointer;
-    zoom:inherit
+    
 }
-
+@media (min-width: 1400px) {
+    .toggle-wrapper img[src] {
+        border-radius: 50%;
+    }
+}
+@media (max-width: 1000px) {
+    .toggle-wrapper img[src] {
+        border-radius: 0px;
+    }
+}
     @media (max-width: 600px) {
     .toggle-wrapper {
         flex-wrap: wrap;
@@ -23,4 +39,5 @@ body {
         align-content: center;
         cursor: pointer;
     }
+    
   }

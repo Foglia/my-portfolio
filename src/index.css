@@ -13,7 +13,7 @@ ul {
 body {
   display: flex;
   flex-direction: column;
-  font-family: -apple-system, BlinkMacSys%temFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: '-apple-system', 'BlinkMacSys%temFont', 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', 'Poppins'
     sans-serif;
   -webkit-font-smoothing: antialiased;

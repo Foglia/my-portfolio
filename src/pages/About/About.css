@@ -34,18 +34,37 @@
     flex-direction: column;
     align-content: space-evenly;
     justify-content: center;
-    max-width: 40%;
+    max-width: 70%;
     padding: 0 20px;
 }
 
 .aboutText h3 {
     text-align: left;
     margin: 0px;
+    font-family: "poppins" sans-serif;
+    font-weight: 400;
+    color: navy;
+}
 
+.aboutText h1 {    
+    text-align: left;
+    margin: 10px 0px;
+    font-family: "poppins" sans-serif;
+    font-size: 50px;
+    color: #4bffa5;
+    text-shadow: -1px -1px 0 navy, 1px 5px 0 navy, -6px 6px 0 white;
+    
+}
+
+.aboutText p {
+    font-family: "poppins" sans-serif;
+    margin: 10px 0;
+    color: navy;
+    font-weight: 300;
 }
 
 .avatar {
-    width: 90%;
+    width: 100%;
     padding: 0 20px;
     height: auto;
     object-fit: cover;
@@ -69,7 +88,8 @@
 }
 
 .blink {
-    animation: blinker .75s linear infinite;
+    font-size: 16px;
+    animation: blinker 1s linear infinite;
     color: navy;
     font-family: sans-serif;
 }
@@ -127,10 +147,14 @@ article {
     padding: 0px 0px
     }
     .click {
-        margin-left: 30vw;
+        margin: 100px  80px auto 390px;
         font-size: 40px;
     }
 }
 
-
+@media (max-width: 500px) {
+ .about span {
+    font-size: 45px;
+    }
+}
 

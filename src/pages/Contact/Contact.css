@@ -4,7 +4,7 @@
     justify-content: space-evenly;
     align-items: flex-start;
     max-width: 100%;
-    padding: 50px 120px 60px;
+    padding: 50px 100px 60px;
     flex-wrap: wrap;
     flex-direction: row;
 }
@@ -28,7 +28,7 @@
 
 
 .contactForm{
-    max-width: 30%;
+    max-width: 35vw;
     padding: 20px;
 }
 
@@ -38,10 +38,28 @@
 
 .rows {
     display: flex;
-    max-width: 40%;
+    width: 35%;
+    padding-right: 10px;
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
+}
+
+.rows h6{
+    color: grey
+}
+
+.rows h3{
+    color: navy;
+    text-shadow: 1px 2px aquamarine;
+    margin-bottom: 20px;
+}
+
+#more{
+    color: navy;
+    text-shadow: 1px 2px aquamarine;
+    text-transform: uppercase;
+    margin-bottom: 20px;
 }
 
 .contacLinks {
@@ -55,7 +73,6 @@
     align-items: center;
     text-decoration: none;
     font-size: 16px;
-    margin-top: 6%;
 }
 
 #submit {
@@ -71,51 +88,51 @@
     font-weight: 300px;
 }
 
-.me {
-    font-size: 12px;
-    color: grey;
-}
-
 .gifImage {
-    margin-top: -10px;
     margin-left: 50px;
     width: auto;
-    height: 300px;
+    height: 200px;
     padding: 0px 70px;
 }
 
 .dowload {
     display: flex;
     flex-direction: column;
-    width: 30%;
+    width: 35%;
     align-items: center;
     flex-wrap: nowrap;
-    align-content: flex-start;
-    justify-content: space-between
+    align-content: center;
+    justify-content: flex-start;
+    margin-top: -39px;
 }
 
 #buttonCv {
     size: 400px;
     color: navy;
-    margin-left: 50px;
+    margin-left: 0px;
     background-color: white;
     border: solid 2px aquamarine;
-    margin-top: 25%;
 }
 
 @media (max-width: 900px) {
     .rows {
         display: flex;
-        max-width: 75%;
+        width: 85%;
+        padding: 10px 0px 0px;
         flex-direction: column;
         flex-wrap: wrap;
         align-items: center;
         margin: 0px 0px 30px;
     }
+    .contactForm{
+    width: 30%;
+    padding: 0px;
+    }
+
     .dowload {
         margin-top: 20px;
         margin-bottom: 40px;
-        width: 70%;
+        width: 100%;
     }
     .gifImage {
         margin: 5px;
@@ -152,7 +169,7 @@
     }
     .rows {
         display: flex;
-        max-width: 75%;
+        max-width: 85%;
         flex-direction: column;
         flex-wrap: wrap;
         align-items: center;
@@ -165,7 +182,6 @@
         margin: 20px auto 1px;
     }
     .gifImage {
-        margin: 5px;
         width: auto;
         height: 300px;
     }
@@ -173,7 +189,7 @@
     .dowload {
         margin-top: 20px;
         margin-bottom: 40px;
-        width: 70%;
+        width: 100%;
     }
     .cv a{
         width: 100%;

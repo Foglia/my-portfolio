@@ -1,6 +1,7 @@
 import React from 'react'
 import uniqid from 'uniqid'
 import { skills, softSkills } from '../../portfolio'
+import InfiniteText from '../../components/InfiniteText/InfiniteText'
 import './Skills.css'
 
 const Skills = () => {
@@ -8,7 +9,9 @@ const Skills = () => {
 
   return (
     <section className='section skills' id='skills'>
-      <h2 className="headText">&lt;&gt;  SKILLS  &lt;/&gt;</h2>
+    <header className="infin">
+    <InfiniteText  text="&lt;&gt;  SKILLS  &lt;/&gt;" />
+    </header>
       <ul className='skills__list'>
         {skills.map((skill) => (
           <li key={uniqid()} className='skills__list-item btn btn--plain' id="hard">

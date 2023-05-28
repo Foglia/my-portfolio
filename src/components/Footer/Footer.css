@@ -1,6 +1,7 @@
 .footerContainer {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     height: 40px;
     width: 100%;
     background-color: #4bffa5;
@@ -12,19 +13,27 @@
     font-family: Arial, Helvetica, sans-serif;
     align-items: center;
     text-align: right;
-    text-transform: uppercase;
     font-size: xx-small;
-    margin-right: 30px;
+    margin-right: 60px;
     margin-top: 10px;
+}
+
+.footer:hover {
+    color: rgba(0, 0, 128, 0.361);
 }
 
 @media (max-width: 600px ) {
     .footerContainer {
+        flex-direction: row;
         height: 40px;
         width: 100%;
         background-color: #4bffa5;
-        text-align: right;
+        text-align: center;
+        align-content: space-around;
+        justify-content: center;
+        align-items: center;
     }
+    
     .footer {
         color: navy;
         font-family: Arial, Helvetica, sans-serif;
