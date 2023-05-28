@@ -19,7 +19,7 @@
      width: 310px;
      height: 310px;
      border-radius: 50%;
-     /* background: rgba(0, 0, 128, 0.196); */
+     background: white;
      margin: 60px;
    }
    
@@ -28,10 +28,9 @@
      width: 235px;
      height: 235px;
      border-radius: 50%;
-     background-image: url("../../assets/images/ezgif.com-gif-maker\ \(1\).gif");
+     background-image: url("../../assets/images/squaregif.gif");
      background-size: cover;
      background-position: center;
-
    }
 
 
@@ -54,7 +53,6 @@
      color: navy;
      font-family: arial;
      animation: rotateText 10s linear infinite;
-     z-index: 99;
    }
    
    .text span{
@@ -62,6 +60,8 @@
      left: 50%;
      font-size: 1.4em;
      transform-origin: 0 155px;
+     z-index: 99;
+     color: navy;
    }
 
   
