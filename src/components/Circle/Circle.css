@@ -19,7 +19,6 @@
      width: 310px;
      height: 310px;
      border-radius: 50%;
-     background: white;
      margin: 60px;
    }
    
@@ -55,14 +54,13 @@
      animation: rotateText 10s linear infinite;
    }
    
-   .text span{
+   .text span {
      position: absolute;
      left: 50%;
-     font-size: 1.4em;
+     font-size: 22px;
      transform-origin: 0 155px;
      color: navy;
      z-index: 99;
-    background-color: beige;
    }
 
   
