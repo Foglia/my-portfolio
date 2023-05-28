@@ -53,7 +53,6 @@
      color: navy;
      font-family: arial;
      animation: rotateText 10s linear infinite;
-     background-color: white;
    }
    
    .text span{
@@ -61,8 +60,9 @@
      left: 50%;
      font-size: 1.4em;
      transform-origin: 0 155px;
-     z-index: 99;
      color: navy;
+     z-index: 99;
+    background-color: beige;
    }
 
   
