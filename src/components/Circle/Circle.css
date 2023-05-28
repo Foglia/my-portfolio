@@ -53,6 +53,7 @@
      color: navy;
      font-family: arial;
      animation: rotateText 10s linear infinite;
+     background-color: white;
    }
    
    .text span{
