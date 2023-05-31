@@ -12,6 +12,7 @@ const StyledButton = styled.button`
     text-transform: uppercase;
     font-heigth: bold;
 
+
     &:hover {
     transform: translateY(-5px);
     box-shadow: 5px 10px;

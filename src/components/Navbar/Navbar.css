@@ -37,9 +37,14 @@ ul {
   display: none;
 }
 
+.nav-elements a {
+  animation: slidein 10s linear;
+}
+
 .nav-elements a:hover {
-  color:rgba(0, 0, 128, 0.361);
-  box-shadow:#574c4c;
+  color: #4bffa5;
+  box-shadow: -2px -2px #574c4c;
+  list-style-type: none;
 }
 
 .nav-elements ul {
