@@ -1,4 +1,7 @@
-
+header {
+    display: inline-grid;
+  }
+  
 .markBoth {
     position: relative;
     display: block;
@@ -32,9 +35,10 @@
     white-space: nowrap;
     min-width: 100vw;
     height: 100vh;
-    line-height: 40px;
+    line-height: 70px;
     font-size: 30px;
     animation: mark 10s linear infinite;
+    z-index: 99;
 }
 
 @keyframes mark {
