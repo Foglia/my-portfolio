@@ -142,7 +142,7 @@ article {
     justify-content: center;
     }
     .avatar {
-    width: 80%;
+    max-width: 80%;
     text-align: center;
     padding: 0px 0px
     }
