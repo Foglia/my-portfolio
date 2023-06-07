@@ -1,17 +1,4 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    overflow-x: hidden 
-  }
-   
-   body {
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     min-height: 100vh;
-   }
-             
+        
    .circle {
      position: relative;
      display: flex;
@@ -21,6 +8,7 @@
      height: 310px;
      border-radius: 50%;
      margin: 60px;
+     overflow-x: hidden 
    }
    
    .logo {
