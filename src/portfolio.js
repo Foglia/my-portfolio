@@ -1,6 +1,7 @@
 import projectImage from "./assets/images/nnft.jpg"
 import projectImageC from "./assets/images/granny.jpg"
 import projectImageM from "./assets/images/paint.jpg"
+import projectImageN from "./assets/images/rinfo.png"
 
 const projects = [
     {
@@ -26,9 +27,18 @@ const projects = [
       description:
         'MONTRA ia a full-stack app designed to make it easy for users to discover and attend cultural events around Portugal.',
       image: projectImageM,
-      stack: ['HTML', 'CSS', 'Bootstrap', 'Styled Components', 'JavaScript', 'React.js', 'Node.js', 'Axios', 'Express', "API", "MongoDB"],
+      stack: [ 'CSS', 'Bootstrap', 'Styled Components', 'JavaScript', 'React.js', 'Node.js', 'Axios', 'Express', "API", "MongoDB"],
       sourceCode: 'https://github.com/Foglia/Project_3_C',
       livePreview: 'https://culturally.netlify.app/',
+    },
+    {
+      name: 'Rinforconta',
+      description:
+        "A presentation webpage, designed accordingly to the client's needs. This multiservice page was developed using React.js and incorporates Sanity CMS for customizable content.",
+      image: projectImageN,
+      stack: ['React.js', 'CSS', 'Bootstrap', 'Sanity.io'  ],
+      sourceCode: 'https://github.com/Foglia/rinforconta',
+      livePreview: 'https://rinforconta.pt/',
     },
   ]
 
@@ -36,6 +46,7 @@ const projects = [
     // skills can be added or removed
     'HTML5',
     'CSS',
+    'SASS',
     'Bootstrap',
     'JavaScript',
     'JQuery',
