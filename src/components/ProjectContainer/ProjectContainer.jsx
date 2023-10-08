@@ -35,6 +35,8 @@ const ProjectContainer = ({ project }) => (
       <a
         href={project.livePreview}
         aria-label='live preview'
+        target="_blank"
+        rel="noopener noreferrer"
         className='link link--icon'
       >
         <MdLaunch />
