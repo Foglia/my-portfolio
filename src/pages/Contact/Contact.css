@@ -75,6 +75,10 @@
     font-size: 16px;
 }
 
+.contacLinks h1{
+    margin-top: 0px;
+}
+
 #submit {
     font-weight: 600;
 }

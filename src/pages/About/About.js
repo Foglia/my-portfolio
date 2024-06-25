@@ -23,7 +23,7 @@ function About() {
          <div className="nameTittle">
          <h1><span>FLAVIA FOGLIATO</span></h1> 
          </div>
-        <h3>a Web Developer based in Lisbon</h3>
+        <h3>A multifaceted Web Developer <span style={{color: 'white', fontSize: 'smaller'}}>(and QA)</span></h3>
         <br />
         <br />
         <p>

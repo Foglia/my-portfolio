@@ -15,9 +15,10 @@ function Contact() {
     <div className='rows'>
       <div className='contactText'>
       <h3>OPEN TO TALK</h3>
-      <h6>If you're interested in collaborating with me on a project or have any questions about my work, I would love to hear from you! Whether you are an individual, a startup, an organization, an artist, or simply a curious visitor, I am always excited to take on new challenges or engage in meaningful discussions. Feel free to reach out to me, and let's explore the possibilities together!</h6>  
+      <h6>If you're interested in collaborating with me on a project or have any questions about my work, I would love to hear from you! Whether you are an individual, a startup, an organization, an artist, or simply a curious visitor, I am always excited to take on new challenges or engage in meaningful discussions. Feel free to reach out to me, and let's explore the possibilities together! </h6>  
       </div>
       <div className='contacLinks'>
+      <h1>☕</h1>
       <p style={{ color: 'aquamarine'}}>
           &lt;br /&gt;
           </p>
@@ -38,7 +39,7 @@ function Contact() {
       </div>
       <div className='dowload'>
       <Circle  className='gifImage'/>
-      <StyledButton onClick={(e) => {window.open("https://drive.google.com/file/d/1TPgAfE1QCwpuufSrjztdfmGcgiai8Uhw/view?usp=sharing/uc?id=<fileId>&export=download", "_blank", "noopener noreferrer");}}
+      <StyledButton onClick={(e) => {window.open("https://drive.google.com/file/d/1T6rCVLYzQ0i3YBjt0RkD4PxCJQp-koYh/view?usp=sharing/uc?id=<fileId>&export=download", "_blank", "noopener noreferrer");}}
        value="download" id='buttonCv'>Download my CV</StyledButton>
        </div>
    </div>
