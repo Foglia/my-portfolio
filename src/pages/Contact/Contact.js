@@ -39,7 +39,7 @@ function Contact() {
       </div>
       <div className='dowload'>
       <Circle  className='gifImage'/>
-      <StyledButton onClick={(e) => {window.open("https://drive.google.com/file/d/1T6rCVLYzQ0i3YBjt0RkD4PxCJQp-koYh/view?usp=sharing/uc?id=<fileId>&export=download", "_blank", "noopener noreferrer");}}
+      <StyledButton onClick={(e) => {window.open("https://drive.google.com/file/d/1N0rFnDuSkfZyugMetrfI6ZLdzDX5L5hA//view?usp=sharing/uc?id=<fileId>&export=download", "_blank", "noopener noreferrer");}}
        value="download" id='buttonCv'>Download my CV</StyledButton>
        </div>
    </div>
