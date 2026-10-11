@@ -5,8 +5,9 @@ import { MdLaunch } from 'react-icons/md'
 import './ProjectContainer.css'
 
 const ProjectContainer = ({ project }) => (
-  <div className='project'>
+  <div className={`project${project.deprecated ? ' project--deprecated' : ''}`}>
     <h3>{project.name}</h3>
+    {project.deprecated && <span className='project__deprecated'>Deprecated</span>}
     <img src={project.image} alt="project 8bit icon"/>
     <p className='project__description'>{project.description}</p>
     {project.stack && (
@@ -31,11 +32,11 @@ const ProjectContainer = ({ project }) => (
       </a>
     )}
 
-    {project.livePreview && (
+    {project.livePreview && !project.deprecated && (
       <a
         href={project.livePreview}
         aria-label='live preview'
-        ptarget="_blank"
+        target="_blank"
         rel="noopener noreferrer"
         className='link link--icon'
       >

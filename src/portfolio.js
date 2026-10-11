@@ -15,6 +15,7 @@ const projects = [
     },
     {
       name: 'NNFT',
+      deprecated: true,
       description:
         " NNFT is a social platform exclusively for 'NoNFT' artists and collectors, providing a space for them to showcase work and interact",       
       image: projectImage,
@@ -57,6 +58,14 @@ const projects = [
     'Git',
     'MongoDB',
     'APIs',
+    'Robot Framework',
+    'Docker',
+    'Jenkins',  
+    'ALM Octane',
+    'Jira',
+    'Confluence',
+    'Agile Methodologies',
+    'Automation Testing'
   ]
 
   const softSkills = [
