@@ -17,7 +17,7 @@ function Contact() {
       <h3>OPEN TO TALK</h3>
       <h6>If you're interested in collaborating with me on a project or have any questions about my work, I would love to hear from you! Whether you are an individual, a startup, an organization, an artist, or simply a curious visitor, I am always excited to take on new challenges or engage in meaningful discussions. Feel free to reach out to me, and let's explore the possibilities together! </h6>  
       </div>
-      <div className='contacLinks'>
+      <div className='contactLinks'>
       <h1>☕</h1>
       <p style={{ color: 'aquamarine'}}>
           &lt;br /&gt;
@@ -34,10 +34,10 @@ function Contact() {
          </div>
         </div>
       </div>
-      <div className='contacForm'>
+      <div className='contactForm'>
       <ContactForm />
       </div>
-      <div className='dowload'>
+      <div className='download'>
       <Circle  className='gifImage'/>
       <StyledButton onClick={(e) => {window.open("https://drive.google.com/file/d/11C1m7T085rT9DDws24XxmNXWSnqciixm/view?usp=sharing<fileId>&export=download", "_blank", "noopener noreferrer");}}
        value="download" id='buttonCv'>Download my CV</StyledButton>

@@ -1,7 +1,7 @@
 import React from "react"
 import { useState } from 'react'
 import { StyledButton, StyledButton2 } from "../../components/StyledButton"
-import ToggleImage from '../../components/ToogleImage/ToogleImage'
+import ToggleImage from '../../components/ToggleImage/ToggleImage'
 import { FaMousePointer } from 'react-icons/fa'
 import "./About.css"
 
@@ -20,7 +20,7 @@ function About() {
     <article className='aboutContainer'>
       <div className="aboutText">
         <h3 id="first">Hello! I'm</h3>
-         <div className="nameTittle">
+         <div className="nameTitle">
          <h1><span>FLAVIA FOGLIATO</span></h1> 
          </div>
         <h3>A multifaceted Web Developer <span style={{color: 'white', fontSize: 'smaller'}}>(and QA)</span></h3>

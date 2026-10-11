@@ -1,4 +1,5 @@
 .containerF {
+    box-sizing: border-box;
     max-width: 600px;
     margin: 0 auto;
     padding: 0 25px;
@@ -6,8 +7,8 @@
     align-items: center;
     align-content: center;
     height: 100%;
-    width: 92%;
-    justify-content: space-between;
+    width: 100%;
+    justify-content: center;
     border: 3px solid navy;
     background-color: #5f5f5e4e;
     border-radius: 4px;
@@ -49,14 +50,17 @@ textarea:focus
     flex-direction: column;
     flex-wrap: nowrap;
     align-items: center;
-    width: 300px;
+    width: 100%;
     max-width: 300px;
+    min-width: 0;
 }
 
 .contact_form {
     display: flex;
     flex-direction: column;
-    margin: 25px;
+    margin: 25px 0;
+    width: 100%;
+    box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -67,9 +71,8 @@ textarea:focus
 
 .form_label {
     margin: 5px;
-    align-items: left;
-    float: right;
-	width: 55%;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 #text_input {
@@ -89,7 +92,7 @@ textarea::placeholder {
     display: flex;
     flex-direction: column;
     align-content: center;
-    padding: 8px 40px;
+    padding: 8px 0;
 }
 
 input[type='text'], [type='email'], textarea {

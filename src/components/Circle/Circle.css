@@ -55,4 +55,22 @@
      z-index: 99;
    }
 
+   @media (max-width: 600px) {
+     #scrollingCircle {
+       width: clamp(180px, 58vw, 220px);
+       height: clamp(180px, 58vw, 220px);
+       margin: 0 auto;
+     }
+
+     #scrollingCircle .logo {
+       width: 72%;
+       height: 72%;
+     }
+
+     #scrollingCircle .text span {
+       font-size: clamp(14px, 4vw, 17px);
+       transform-origin: 0 clamp(90px, 29vw, 110px);
+     }
+   }
+
   

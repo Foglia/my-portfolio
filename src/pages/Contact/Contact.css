@@ -62,7 +62,7 @@
     margin-bottom: 20px;
 }
 
-.contacLinks {
+.contactLinks {
     display: flex;
     flex-direction: column;
     max-width: 100%;
@@ -75,7 +75,7 @@
     font-size: 16px;
 }
 
-.contacLinks h1{
+.contactLinks h1{
     margin-top: 0px;
 }
 
@@ -99,7 +99,7 @@
     padding: 0px 70px;
 }
 
-.dowload {
+.download {
     display: flex;
     flex-direction: column;
     width: 35%;
@@ -129,22 +129,17 @@
         margin: 0px 0px 30px;
     }
     .contactForm{
-    width: 30%;
-    padding: 0px;
+        width: 100%;
+        max-width: 600px;
+        padding: 0;
+        box-sizing: border-box;
     }
 
-    .dowload {
+    .download {
         margin-top: 20px;
         margin-bottom: 40px;
         width: 100%;
     }
-    .gifImage {
-        margin: 5px;
-        width: auto;
-        height: 300px;
-        margin-right: 10px;
-    }
-
     #buttonCv {
         margin-top: 10%;
         margin-left: 0;
@@ -163,13 +158,19 @@
         flex-direction: column-reverse;
         flex-wrap: wrap;
     }
-    .contacLinks {
+    .contactLinks {
         text-align: center;
         width: 100%;
     }
-    .contacLinks a {
+    .contactLinks a {
         text-align: center;
         overflow: visible;
+    }
+    .contactForm {
+        width: 85%;
+        max-width: 600px;
+        padding: 0;
+        box-sizing: border-box;
     }
     .rows {
         display: flex;
@@ -185,15 +186,13 @@
         text-align: center;
         margin: 20px auto 1px;
     }
-    .gifImage {
-        width: auto;
-        height: 300px;
-    }
-
-    .dowload {
-        margin-top: 20px;
-        margin-bottom: 40px;
+    .download {
+        gap: 12px;
+        margin: 16px auto 24px;
         width: 100%;
+    }
+    #buttonCv {
+        margin-top: 0;
     }
     .cv a{
         width: 100%;

@@ -26,7 +26,7 @@ const projects = [
     {
       name: 'Montra PT',
       description:
-        'MONTRA ia a full-stack app designed to make it easy for users to discover and attend cultural events around Portugal.',
+        'MONTRA is a full-stack app designed to make it easy for users to discover and attend cultural events around Portugal.',
       image: projectImageM,
       stack: [ 'CSS', 'Bootstrap', 'Styled Components', 'JavaScript', 'React.js', 'Node.js', 'Axios', 'Express', "API", "MongoDB"],
       sourceCode: 'https://github.com/Foglia/Project_3_C',
