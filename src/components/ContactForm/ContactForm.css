@@ -95,6 +95,11 @@ textarea::placeholder {
     padding: 8px 0;
 }
 
+.form_error {
+    color: #b00020;
+    text-align: center;
+}
+
 input[type='text'], [type='email'], textarea {
 	background: none;
   border: none;

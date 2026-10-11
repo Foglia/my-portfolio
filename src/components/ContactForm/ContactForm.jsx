@@ -6,9 +6,11 @@ import "./ContactForm.css"
 const ContactForm = () => {
   const form = useRef();
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const [sendError, setSendError] = useState('');
 
   const sendEmail = (e) => {
     e.preventDefault();
+    setSendError('');
     setIsSubmitting(true);
     emailjs.sendForm(
       process.env.REACT_APP_SERVICE_ID, 
@@ -21,7 +23,8 @@ const ContactForm = () => {
           setIsSubmitting(false);
           form.current.reset();
       }, (error) => {
-          console.log(error.text);
+          console.error('EmailJS failed to send the contact form:', error);
+          setSendError('Your message could not be sent. Please try again later or contact me by email.');
           setIsSubmitting(false);
       });
   };
@@ -46,6 +49,7 @@ const ContactForm = () => {
       <StyledButton2 type="submit" value="Send" id="submit" disabled={isSubmitting}>{isSubmitting ? 'Loading...' : 'Send'}
 </StyledButton2>
       </div>
+      {sendError && <p className="form_error" role="alert">{sendError}</p>}
     </form>
   </div>
   </div>
